@@ -1,6 +1,6 @@
 const BASE_URL = "https://zagster-service.herokuapp.com"
 
-$(updateView)
+$(updateGraph)
 
 function updateView() {
   $.getJSON(BASE_URL + "/rides/count" , updateRideCount)
